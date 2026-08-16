@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.db
+*.db-journal
+.cache/
+.coverage
+htmlcov/
+*.report.json
+*.report.md
