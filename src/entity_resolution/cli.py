@@ -25,6 +25,7 @@ from .models import CandidatePair, NormalizedEntity, ResolutionDecision
 from .normalize import normalize as normalize_fn
 from .pipeline import run_pipeline
 from .resolve import ResolveThresholds, resolve as resolve_fn
+from .review import explain_pair, export_review_queue_csv, format_explanation
 from .scoring import HeuristicScorer, score_all
 
 app = typer.Typer(add_completion=False, help="Entity resolution / dedup pipeline for messy multi-source data.")
@@ -155,6 +156,81 @@ def _persist_to_db(db_path: Path, loaded, result) -> None:
             db.upsert_decision(ResolutionDecision(pair_id=pair_id_map[p.id], decision="no_match"))
         for p in result.resolve_result.review_queue:
             db.upsert_decision(ResolutionDecision(pair_id=pair_id_map[p.id], decision="review"))
+
+
+def _load_review_queue(db_path: Path):
+    with EntityResolutionDB(db_path) as conn:
+        entities = {e.id: e for e in conn.get_normalized_entities()}
+        pairs = {p.id: p for p in conn.get_candidate_pairs()}
+        decisions = [d for d in conn.get_decisions() if d.decision == "review"]
+    explanations = []
+    for d in decisions:
+        pair = pairs[d.pair_id]
+        a, b = entities[pair.entity_a_id], entities[pair.entity_b_id]
+        explanations.append(explain_pair(pair, a, b))
+    return explanations
+
+
+@app.command()
+def review_queue(
+    db: Path = typer.Option(Path("entity_resolution.db")),
+    limit: int = typer.Option(20),
+):
+    """List ambiguous pairs routed to the review queue -- the spec's
+    reviewer story: this band is surfaced explicitly, never silently
+    auto-merged or silently dropped. Each pair is shown with a feature
+    breakdown (what agrees/disagrees/is missing) so a reviewer can decide
+    quickly instead of re-deriving the ambiguity from raw fields."""
+    explanations = _load_review_queue(db)
+    if not explanations:
+        typer.echo("Review queue is empty.")
+        return
+    typer.echo(f"{len(explanations)} pairs awaiting review (showing up to {limit}):\n")
+    for exp in explanations[:limit]:
+        typer.echo(format_explanation(exp))
+        typer.echo("")
+
+
+@app.command()
+def export_review_queue(
+    db: Path = typer.Option(Path("entity_resolution.db")),
+    out: Path = typer.Option(Path("review_queue.csv")),
+):
+    """Export the full review queue to a CSV a human reviewer can work
+    through offline (e.g. in a spreadsheet), with a blank
+    reviewer_decision column to fill in."""
+    explanations = _load_review_queue(db)
+    if not explanations:
+        typer.echo("Review queue is empty; nothing to export.")
+        raise typer.Exit(0)
+    path = export_review_queue_csv(explanations, out)
+    typer.echo(f"Exported {len(explanations)} review-queue pairs to {path}")
+
+
+@app.command()
+def submit_review(
+    pair_id: int,
+    decision: str = typer.Argument(..., help="'match' or 'no_match'"),
+    reviewer: str = typer.Option(..., help="Reviewer name/id"),
+    db: Path = typer.Option(Path("entity_resolution.db")),
+):
+    """Record a human reviewer's decision for a pair in the review queue.
+    This is the other half of the reviewer story: the ambiguous band isn't
+    a dead end -- a decision made here is durably recorded against the pair
+    (resolution_decisions.reviewer / .decision), closing the loop."""
+    if decision not in ("match", "no_match"):
+        typer.echo("decision must be 'match' or 'no_match'", err=True)
+        raise typer.Exit(1)
+    with EntityResolutionDB(db) as conn:
+        existing = {d.pair_id: d for d in conn.get_decisions()}
+        if pair_id not in existing or existing[pair_id].decision != "review":
+            typer.echo(
+                f"warning: pair {pair_id} was not in the review queue (decision="
+                f"{existing.get(pair_id).decision if pair_id in existing else 'unknown'}); recording anyway",
+                err=True,
+            )
+        conn.upsert_decision(ResolutionDecision(pair_id=pair_id, decision=decision, reviewer=reviewer))
+    typer.echo(f"Recorded {decision} for pair {pair_id} by {reviewer}")
 
 
 if __name__ == "__main__":
