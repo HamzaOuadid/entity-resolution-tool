@@ -6,7 +6,8 @@ same real-world entity as it appears differently across messy multi-source data 
 review queue for the ambiguous middle band instead of forcing every decision
 automatically, and published precision/recall against a hand-labelled sample.
 
-Built against [`18-entity-resolution-dedup-tool-across-messy-multi-source-data.md`](../Project_Specs_20/18-entity-resolution-dedup-tool-across-messy-multi-source-data.md).
+Built as project 18 of a 20-project portfolio, against the spec
+`18-entity-resolution-dedup-tool-across-messy-multi-source-data.md`.
 
 ## Real demo run
 
@@ -257,7 +258,7 @@ glossed over.
 Python 3.10+.
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/HamzaOuadid/entity-resolution-tool.git
 cd entity-resolution-tool
 pip install -e ".[dev]"
 ```
