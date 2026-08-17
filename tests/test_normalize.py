@@ -51,6 +51,15 @@ def test_extract_postal_code_missing_returns_empty():
     assert extract_postal_code("123 Maple St, Denver, CO") == ""
 
 
+def test_extract_postal_code_ignores_street_number_when_postal_present():
+    """Regression test: the street number ("4208") is a 4-digit sequence
+    that appears *before* the real postal code in "<num> <street>, <city>,
+    <postal>"-shaped addresses. The extractor must not grab the street
+    number as if it were the postal code."""
+    assert extract_postal_code("4208 Sunset Avenue, Tulsa, 74103") == "74103"
+    assert extract_postal_code("1500 Main Rd, Columbus, 43215") == "43215"
+
+
 def test_normalize_postal_code_strips_whitespace_and_uppercases():
     assert normalize_postal_code("1017 ab") == "1017AB"
 

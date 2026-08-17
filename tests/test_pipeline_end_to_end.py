@@ -19,13 +19,27 @@ def test_pipeline_achieves_reasonable_precision_and_recall():
 
 
 def test_review_queue_is_non_empty_and_contains_real_ambiguous_pairs():
+    """Every review-queue pair got there for one of two legitimate reasons:
+    (a) its own score fell in the mid band, or (b) it's part of a cluster
+    flagged for conflicting evidence (see resolve.py's transitive-chain
+    safeguard) -- which can pull in an individually high- or low-scoring
+    pair. Either way, it must not have been silently auto-decided."""
     dataset = generate_dataset(n_entities=300, seed=42)
     result = run_pipeline(dataset)
     assert len(result.resolve_result.review_queue) > 0
+
+    t = ResolveThresholds()
+    flagged_ids = {
+        eid for c in result.resolve_result.clusters if c.status == "flagged_conflict" for eid in c.entity_ids
+    }
     for p in result.resolve_result.review_queue:
         assert p.similarity_score is not None
-        t = ResolveThresholds()
-        assert t.no_match_threshold < p.similarity_score < t.match_threshold
+        in_mid_band = t.no_match_threshold < p.similarity_score < t.match_threshold
+        in_flagged_cluster = p.entity_a_id in flagged_ids or p.entity_b_id in flagged_ids
+        assert in_mid_band or in_flagged_cluster, (
+            f"pair {p.id} (score={p.similarity_score}) is in review_queue but is neither "
+            "mid-band nor part of a flagged-conflict cluster"
+        )
 
 
 def test_review_queue_pairs_are_not_double_counted_as_matches_or_no_matches():

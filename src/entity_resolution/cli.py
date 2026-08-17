@@ -53,8 +53,8 @@ def generate_data(
 @app.command()
 def run_all(
     data_dir: Path = typer.Option(Path("data")),
-    match_threshold: float = typer.Option(0.83),
-    no_match_threshold: float = typer.Option(0.55),
+    match_threshold: float = typer.Option(ResolveThresholds().match_threshold),
+    no_match_threshold: float = typer.Option(ResolveThresholds().no_match_threshold),
     sample_size: int = typer.Option(300),
     db: Path = typer.Option(Path("entity_resolution.db")),
     report_out: Path = typer.Option(None, help="Optional path to write the metrics report as JSON"),

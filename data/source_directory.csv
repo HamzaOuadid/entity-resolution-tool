@@ -1,0 +1,330 @@
+dir_id,company_name,full_address,phone,category
+DIR-00001,Northgate Hardware Group,"Washington 3667, Rotterdam, 3011 CE",+1-555-8491,business
+DIR-00002,Wexford Software Holdings LLC,3267 Bahnhofstrasse Ln,+1-555-6180,business
+DIR-00003,Cedarbrook Automotive Gruop Company,"116 Linclon Ln, Boise, 83702",+1-555-2188,business
+DIR-00004,Union Enegry Group Inc.,"1529 Highland St, Tampa, 33602",+1-555-1152,business
+DIR-00005,Foxhollow Freight Holdings,"Elm 8795, Brussels, 1000",+1-555-8508,business
+DIR-00006,Coastal Plumbing LLC,"5935 Prinsengracht Ave, Wichita",+1-555-2638,business
+DIR-00007,Eastbrook Bakery Group Inc,"3824 Elm Blvd, Raleigh, 27601",+1-555-2200,business
+DIR-00008,Fairmont Foods Group,"3442 Park Ln, Spokane, 99201",+1-555-9808,business
+DIR-00009,Foxhollow Auto Repair Holdings Ltd.,"Lincoln 4020, Eindhoven, 5611 EM",+1-555-4492,business
+DIR-00010,Delcaroix Materials Corporation,"926 Main Ct, Denver, 80202",+1-555-9288,business
+DIR-00011,Freight Holdings Brookhaven BV,"Frnaklin 9302, Munich, 80331",+1-555-5345,business
+DIR-00012,Brookhaven Auto Repair Group BV,"Washibgton 4349, Munich, 80331",+1-555-3170,business
+DIR-00013,Freight Marlow Ltd.,"Prqinsengracht 7029, Brussels, 1000",+1-555-6718,business
+DIR-00014,Harborview Phrama Group Inc.,"781 Elm Ave, Spokane, 99201",+1-555-2127,business
+DIR-00015,DELACROIX LANDSCAPING HOLDINGS CO.,"1886 Mill Ct, Raleigh, 27601",+1-555-5002,business
+DIR-00016,Coalt Technologies Group N.V.,"Industrial Parkway 2601, Amsterdam, 1017 AB",+1-555-7054,business
+DIR-00017,Anchor Pharma Hroldings Ltd.,"Bahnhofstrasse 1753, Hamburg, 20095",+1-555-5669,business
+DIR-00018,Wexford Software Hodlings BV,"Lincoln 6136, Leiden, 2311 GJ",+1-555-3584,business
+DIR-00019,Hollowell Ind. GmbH,"Mple 8015, Rotterdam, 3011 CE",+1-555-8179,business
+DIR-00020,Sterling Materials Holdings,"Cefar 9305, Rotterdam, 3011 CE",+1-555-9900,business
+DIR-00021,Ironwood Bakery,"Harbor 2113, Leiden, 2311 GJ",+1-555-5956,business
+DIR-00022,Holowell Landscaping Corp.,"3480 Mill Ct, Wichita, 67202",+1-555-9666,business
+DIR-00023,Sterling Chemicals,"Market 7187, Eindhoven, 5611 EM",+1-555-1128,business
+DIR-00024,Eastbrook Manufacturing Group,"9648 Mill Ave, Tulsa, 74103",+1-555-5905,business
+DIR-00025,Pizza Ironwood Inc.,"3760 Cedr St, Tampa, 33602",+1-555-2697,business
+DIR-00026,Pinecrest Freight,"3520 Mill Ave, Wichita, 67202",+1-555-3200,business
+DIR-00027,Automotive Ashworth Group BV,"River 7759, Munich, 80331",+1-555-5333,business
+DIR-00028,Meridian Logistics Gorup GmbH,"Min 1800, Munich, 80331",+1-555-2891,business
+DIR-00029,Cedarbrook Consulting Group Inc,"4573 Industrial Parkway Ave, Austin, 73301",+1-555-2753,business
+DIR-00030,Delacroix Tchnologies Holdings Co.,"8866 Maple St, Columbus, 43215",+1-555-3546,business
+DIR-00031,Kingsley Media Holdings,"6580 Oak Ave, Boise",+1-555-5462,business
+DIR-00032,Crestline Analytics Holdings Inc,"9499 Mill St, Wichita",+1-555-5616,business
+DIR-00033,Summit Automotive Grhoup LLC,"8711 Lincokn St, Reno, 89501",+1-555-4450,business
+DIR-00034,Summit Automotive Group,"8711 Lincoln St, Reno, 89501",+1-555-6617,business
+DIR-00035,Redstone Manufacturing,"3863 Highkand St, Tulsa, 74103",+1-555-4335,business
+DIR-00036,Foxhollow Logistics Inc.,"6878 Prinsengracht Dr, Reno, 89501",+1-555-5325,business
+DIR-00037,ANCHOR ENERGY CO.,"5157 Maon Rd, Boise, 83702",+1-555-9280,business
+DIR-00038,Sterling Agriculture Group,"1198 Maple Blvd, Tulsa, 74103",+1-555-9004,business
+DIR-00039,Meridian Manufacturing BV,"Paerk 8298, Utrecht, 3511 LN",+1-555-5114,business
+DIR-00040,Manufacturing Meridian BV,"Park 8298, Utrecht, 3511 LN",+1-555-1832,business
+DIR-00041,Ironwood Materials Group GmbH,"Industroal Parkway 2594, Leiden, 2311 GJ",+1-555-2512,business
+DIR-00042,Greystone Electric Ltd.,"Mill 138, Hamburg, 20095",+1-555-7939,business
+DIR-00043,Meeidian Consulting Group B.V.,"Mill 1763, Utrecht",+1-555-5533,business
+DIR-00044,Foxhollow Energy Corporation,"3345 Bahnhofstrasse Ct, Raleigh, 27601",+1-555-1722,business
+DIR-00045,Anchor Landscaping Hodings Inc.,"6949 Park St, Denver, 80202",+1-555-1058,business
+DIR-00046,Falcon Manufacturing Inc,"8948 Oak Ct, Tampa, 33602",+1-555-6464,business
+DIR-00047,Union Robotics Holdings Inc.,"5060 Sunset Ct, Denver",+1-555-3143,business
+DIR-00048,Whitfield Coffee Holdings B.V.,"Mill 5804, Brussels, 1000",+1-555-5291,business
+DIR-00049,Whitfield Coffe Holdings B.V.,"Mill 5804, Brussels, 1000",+1-555-3647,business
+DIR-00050,Union Materials Holdings B.V.,"Maple 6765, Utrecht, 3511 LN",+1-555-8239,business
+DIR-00051,Cobalt Electric Group BV,"Lincoln 4381, Rotterdam, 3011 CE",+1-555-8007,business
+DIR-00052,Eastbrook Materials Holdings BV,"Franklin 6538, Hamburg, 20095",+1-555-1158,business
+DIR-00053,Highland Textiles,"Mill 6558, Antwerp, 2000",+1-555-2832,business
+DIR-00054,Falcon Freight Holdings Limited,"Oak 4359, Rotterdam, 3011 CE",+1-555-2232,business
+DIR-00055,Lkaeside Hardware Group Corp.,"9942 Market St, Boise, 83702",+1-555-3442,business
+DIR-00056,Crestline Freight Holdings,"Market 37, Leiden, 2311 GJ",+1-555-9938,business
+DIR-00057,Group Crestline Textiles B.V.,"Kerkstraat 5419, Antwerp, 2000",+1-555-1590,business
+DIR-00058,Falcon Hardware Group Ltd.,"River 5077, Antwerp, 2000",+1-555-7049,business
+DIR-00059,Coastal Construction Holdings,"6898 Highland Ln, Wichita, 67202",+1-555-3426,business
+DIR-00060,Coastal Holdings Construction Inc,"6898 Highland Ln, Wichita, 67202",+1-555-8041,business
+DIR-00061,Greystone Automotive Group N.V.,"Maple 8987, Hamburg, 20095",+1-555-3088,business
+DIR-00062,Amberfield Electric LLC,"5289 Industrial Parkway Blvd, 53703",+1-555-1685,business
+DIR-00063,Wxford Media BV,"Union 1399, Leiden, 2311 GJ",+1-555-6050,business
+DIR-00064,Greystone Systems Holdings BV,"Main 5095, Munich, 80331",+1-555-6974,business
+DIR-00065,Bluewater Materiazls Group LLC,"1203 Industriael Parkway Blvd, Spokane, 99201",+1-555-1653,business
+DIR-00066,Meridian Bakry Group BV,"Market 2891, Eindhoven, 5611 EM",+1-555-6862,business
+DIR-00067,Foxhollow Systems Groip Ltd.,"Rivher 8280, Leiden, 2311 GJ",+1-555-4441,business
+DIR-00068,Vantage Hardware Group Corp.,"4256 Mani Ct, Spokane, 99201",+1-555-5088,business
+DIR-00069,Hollowell Mdeia Inc,"4509 Indsutrial Parkway St, Wichita, 67202",+1-555-2684,business
+DIR-00070,Acme Textiles Group Company,"6399 River Dr, Wichita, 67202",+1-555-6794,business
+DIR-00071,Foxhollow Materials Group BV,"Rievr 4481, Eindhoven",+1-555-7658,business
+DIR-00072,Cobalt Coffee Company,"6634 Lincoln Ct, Madison, 53703",+1-555-3532,business
+DIR-00073,Greystone Holdings Construction N.V.,"Prinsengracht 9707, Amsterdam, 1017 AB",+1-555-4878,business
+DIR-00074,AMBERFIELD CONSULTING GROUP INC,"833 Park Blvd, Tampa, 33602",+1-555-3662,business
+DIR-00075,Ridgeline Systems Group Corporation,"6916 Park Ct, Austin, 73301",+1-555-3900,business
+DIR-00076,Marlow Logistics Group Incorporated,"1134 Bhnhofstrasse St, Denver, 80202",+1-555-7755,business
+DIR-00077,Marlow Logistics Group Inc,"1134 Bahnhofstrasse St, 80202",+1-555-1406,business
+DIR-00078,Crestline Plumbing Holdings Ltd.,"Main 2506, Utrecht",+1-555-3938,business
+DIR-00079,Falcon Automotive Holdings,"4208 Sunset Ave, Tulsa, 74103",+1-555-6442,business
+DIR-00080,FALCON BAKERY HOLDINGS GMBH,"Prinsengraxht 1781, Amsterdam, 1017 AB",+1-555-7745,business
+DIR-00081,Coffee Group Ashworth N.V.,"Cwdar 3259, Munich, 80331",+1-555-5065,business
+DIR-00082,Sterling Landscaping L.L.C.,"1993 Prinsengracht Ct, Denver, 80202",+1-555-5371,business
+DIR-00083,Amberfield Coffee Group Inc,"8299 Bahnhofstrasse Rd, Denver, 80202",+1-555-3608,business
+DIR-00084,Kingsley Tech. Group GmbH,"Washington 7542, Brussels, 1000",+1-555-2771,business
+DIR-00085,Auto Repair Group Hollowell LLC,"8827 Harbor Blvd, Boise, 83702",+1-555-7267,business
+DIR-00086,Brambleton Freight Gorup BV,"Park 1429, Eindhoven, 5611 EM",+1-555-1634,business
+DIR-00087,Novara Automotive Co.,"6219 Franklin St, Madison, 53703",+1-555-8711,business
+DIR-00088,Media Holdings Redstone GmbH,"Franklin 4242, Hamburg, 20095",+1-555-4644,business
+DIR-00089,Hoghland Construction Holdings Ltd.,"Cedr 3140, Munich, 80331",+1-555-4269,business
+DIR-00090,Kingsley Construction Holdings N.V.,"Industrial Parkway 8051, Amsterdam, 1017 AB",+1-555-8541,business
+DIR-00091,Eastbrook Chemicals,"5026 Prinsengracht Rd, Madison, 53703",+1-555-6728,business
+DIR-00092,Lakeside Robotics,"5429 Sunset Ln, Madison, 53703",+1-555-6000,business
+DIR-00093,Anchor Materials Holdings,"3165 Franklin St, 67202",+1-555-4728,business
+DIR-00094,Anchor Materials Holdings Co.,"3165 Franklin St, Wichita, 67202",+1-555-4652,business
+DIR-00095,Energy Redstone Holdings Co.,"7943 Park Ln, Tulsa, 74103",+1-555-1387,business
+DIR-00096,Hollowell Group Software B.V.,"Union 3190, Munich, 80331",+1-555-4164,business
+DIR-00097,Sterling Industrail LLC,"2083 Park St, Denver, 80202",+1-555-7528,business
+DIR-00098,Harborview Auto Repair Group Inc.,"210 Prinsengracht Rd, Madison, 53703",+1-555-6378,business
+DIR-00099,Cobalt Foods Holdings,"7837 Elm Ct, Austin, 73301",+1-555-5564,business
+DIR-00100,Ironwood Automotive Co.,"888 Washington Ave, Tulsa, 74103",+1-555-2137,business
+DIR-00101,SILVERLINE MATERIALS HOLDINGS LTD.,"Kerkstraat 6828, Munich, 80331",+1-555-5573,business
+DIR-00102,Silverline Materials Holdings Lts.,"Kerkstraat 6828, Munich, 80331",+1-555-6753,business
+DIR-00103,Granite Agriculture Group GnbH,"Rivr 9652, Hamburg, 20095",+1-555-9346,business
+DIR-00104,Summit Software,"3414 Bahnhfstrasse Ave, Raleigh",+1-555-7548,business
+DIR-00105,Foxhollow Media Group Inc,"3802 Union Ln, Raleigh",+1-555-9785,business
+DIR-00106,Marlow Mterials Inc,"4362 Washington St, Denver, 80202",+1-555-6425,business
+DIR-00107,Sterling Software Company,"9335 Union Blvd, Austin, 73301",+1-555-1452,business
+DIR-00108,STERLING PIZZA GROUP CORPORATION,"8209 Moll Blvd, Madison, 53703",+1-555-2889,business
+DIR-00109,Sterling Pizza Group,"8209 Mill Blvd, Madison",+1-555-5279,business
+DIR-00110,Ashworth Automotive Holdings,"4425 Prinsengracht St, Portland",+1-555-3925,business
+DIR-00111,Cedarbrook Freight Holdings,"7151 Banhhofstrasse Ct, Madison, 53703",+1-555-5349,business
+DIR-00112,KINGSLEY ANALYTICS CORP.,"9022 Oak Blvd, Austin, 73301",+1-555-1626,business
+DIR-00113,Ridgeline Technologies Group Company,"8441 Myaple Ln, Reno, 89501",+1-555-2776,business
+DIR-00114,DELACROIX CONSULTING GROUP CORP.,"7951 Elm St, Spokane, 99201",+1-555-8119,business
+DIR-00115,Ponecrest Pizza Holdings GmbH,"Maple 9034, Leiden, 2311 GJ",+1-555-6663,business
+DIR-00116,Eastbrook Plumbing Holdings Corp.,"1934 Bahnhifstrasse Ct, Portland, 97201",+1-555-6139,business
+DIR-00117,Coastal Pharma Corporation,"6817 Harbor Blvd, Columbus, 43215",+1-555-8149,business
+DIR-00118,Union Chemicals Holdings LLC,"8337 Washington Ct, Austin, 73301",+1-555-9379,business
+DIR-00119,Btambleton Coffee Group BV,"Mzill 7326, Eindhoven, 5611 EM",+1-555-2894,business
+DIR-00120,Delacroix Bakery Corp.,"7470 Franklin Ct, 43215",+1-555-7311,business
+DIR-00121,Pinecrest Automotive Group BV,"Oak 6740, Antwerp, 2000",+1-555-4114,business
+DIR-00122,Granite Chemicals BV,"Oak 8125, Utrecht, 3511 LN",+1-555-5173,business
+DIR-00123,Systems Brambleton Holdings Company,"7223 Elm Dr, Madison, 53703",+1-555-1727,business
+DIR-00124,Union Robotics Inc,"1235 Harbor Ct, Raleigh, 27601",+1-555-8144,business
+DIR-00125,Brookhaven Auto Repair Holdings Company,"5393 Mill Blvd, Tampa",+1-555-1027,business
+DIR-00126,Kingsley Landscaping By.V.,"Min 1131, Hamburg",+1-555-9518,business
+DIR-00127,Silverline Robotics Holdings,"Lincoln 7279, Hamburg",+1-555-9821,business
+DIR-00128,Bluewater Systems Holdings GmbH,"Sunset 5883, Brussels, 1000",+1-555-4228,business
+DIR-00129,Software Granite BV,"Prinsengracht 8163, Utrecht, 3511 LN",+1-555-6967,business
+DIR-00130,Anchor Agriculture Group Company,"163 Industrial Parkway Rd, Spokane, 99201",+1-555-8066,business
+DIR-00131,Ironwood Group Agriculture LLC,"4911 Banhofstrasse Blvd, Wichita, 67202",+1-555-2146,business
+DIR-00132,Sterling Energy Group Company,"7926 Elm Ave, Boise, 83702",+1-555-6409,business
+DIR-00133,Ashworth Analytics Corporation,"369 Highluand Rd, Denver, 80202",+1-555-6143,business
+DIR-00134,Summit Software,"4699 Main Dr, Tampa, 33602",+1-555-3041,business
+DIR-00135,Group Crestline Software Co.,"2250 Bahnhofstrasse St, Spokane, 99201",+1-555-5920,business
+DIR-00136,Caostal Systems Corp.,"2887 Chruch Ave, Reno, 89501",+1-555-9308,business
+DIR-00137,Coastal Systems Corp.,"2887 Church Ave, Reno, 89501",+1-555-6067,business
+DIR-00138,Fairmont Pharma GmbH,"Park 2705, Eindhoven, 5611 EM",+1-555-7691,business
+DIR-00139,Coastal Hardware Group B.V.,"Cedar 7683, Utrecht, 3511 LN",+1-555-6344,business
+DIR-00140,EASTBROOK LANDSCAPING N.V.,"Sunset 9141, Rotterdam, 3011 CE",+1-555-7592,business
+DIR-00141,Acme Freight BV,"Sunset 7461, Hamburg",+1-555-5844,business
+DIR-00142,Fairmot Technologies Inc,"7734 Mapke Dr, Reno",+1-555-3085,business
+DIR-00143,Greystone Materials Inc,"7616 Unvion Ln, Boise",+1-555-4143,business
+DIR-00144,Logistics Group Bluewater Corp.,"1912 Elm Ave, Reno, 89501",+1-555-7888,business
+DIR-00145,Novara Textiles Co.,"8860 River Dr, Wichita",+1-555-7211,business
+DIR-00146,Westgate Auto Repair Holdings NV,"Park 6696, Amsterdam, 1017 AB",+1-555-3851,business
+DIR-00147,Group Whitfield Agriculture BV,"Elm 5952, Antwerp, 2000",+1-555-5930,business
+DIR-00148,Group Lakeside Logistics Corporation,"3119 Elm Ct, Madison, 53703",+1-555-7653,business
+DIR-00149,Lakeside Logistics Group Corporatoin,"3119 Elm Ct, Madison",+1-555-9977,business
+DIR-00150,Whitfield Auto Repair LLC,"359 Oak Ct, Tampa, 33602",+1-555-1006,business
+DIR-00151,Harborview Electric Incorporated,"1134 Mill Ave, Tulsa, 74103",+1-555-5978,business
+DIR-00152,Systems Holdings Eastbrook Company,"9774 Maple Rd, Portland, 97201",+1-555-5700,business
+DIR-00153,Eastbrook Sytsems Holdings Company,"9774 Maple Rd, Portland, 97201",+1-555-4443,business
+DIR-00154,Marlow Freight Holdings B.V.,"Washington 432, Amsterdam, 1017 AB",+1-555-8043,business
+DIR-00155,Marlow Freight Holdings B.V.,"Washington 432, Amsterdam, 1017 AB",+1-555-6279,business
+DIR-00156,Pinecrest Automotive Group Inc.,"2864 Park St, Portland, 97201",+1-555-8618,business
+DIR-00157,Hollowell Technologies BV,"Industriabl Parkway 7812, Antwerp, 2000",+1-555-8238,business
+DIR-00158,Hollowell Technologies,"Industrial Parkway 7812, Antwerp, 2000",+1-555-8244,business
+DIR-00159,Meridian Agriculture Incorporated,"720 Makret Rd, Madison, 53703",+1-555-4501,business
+DIR-00160,Northgate Logisics Group N.V.,"Elm 6994, Eindhoven, 5611 EM",+1-555-9375,business
+DIR-00161,Cedarbrook Mfg. Holdings GmbH,"Washington 9976, Rotterdam, 3011 CE",+1-555-8752,business
+DIR-00162,Wexford Software Group Inc,"1884 Bhanhofstrasse Ln, Reno, 89501",+1-555-3780,business
+DIR-00163,Whitfield Robotics Group,"Franklin 6789, Eindhoven, 5611 EM",+1-555-2389,business
+DIR-00164,Meridian Systems Group,"4186 Sunsaet Ave, Spokane, 99201",+1-555-5649,business
+DIR-00165,Holdings Ironwood Manufacturing B.V.,"Elm 7085, Antwerp",+1-555-9445,business
+DIR-00166,Delacroix Logistics,"Franklin 9212, Rotterdam, 3011 CE",+1-555-6491,business
+DIR-00167,Amberfield Landscaping In.,"4722 Kerkstraat Rd, Tampa, 33602",+1-555-2530,business
+DIR-00168,Wexford Energy Holdings Co.,"7910 Main Ct, Austin, 73301",+1-555-4848,business
+DIR-00169,Delacroix Textiles Holdings,"4574 Prinsengracht Ave, Boise, 83702",+1-555-6085,business
+DIR-00170,Greystone Software Limited,"Kerkstraat 440, 20095",+1-555-4680,business
+DIR-00171,Group Highland Pizza Corporation,"5761 Mapole Ave, Portland, 97201",+1-555-4262,business
+DIR-00172,Brookhaven Manufacturibg Holdings Co.,"512 Cdar Ln, Reno, 89501",+1-555-3414,business
+DIR-00173,Westgaet Agriculture Group Inc,"6072 Uion Ln, Tampa, 33602",+1-555-1400,business
+DIR-00174,Highland Agriculture NV,"Kerkstraat 7967, Eindhoven, 5611 EM",+1-555-1757,business
+DIR-00175,Brambleton Media GmbH,"Main 754, Brussels, 1000",+1-555-5011,business
+DIR-00176,Brambleton Media,"Main 754, Brussels",+1-555-8784,business
+DIR-00177,Summit Holdings Industrial GmbH,"Washington 3470, Hamburg, 20095",+1-555-2193,business
+DIR-00178,Falcon Industrial Group,"7065 Lincoln Ave, Boise, 83702",+1-555-8461,business
+DIR-00179,Eastbrook Pharma Company,"5812 Cedar Blvd, Wichita, 67202",+1-555-7790,business
+DIR-00180,Agriculture Holdings Northgate Company,"5139 Prinsengracht Blvd, Tulsa, 74103",+1-555-4185,business
+DIR-00181,Westgate Analytics Holdings Corp.,"351 Feanklin Ave, Tulsa, 74103",+1-555-7291,business
+DIR-00182,Silverline Chemicals Group Co.,"5572 Main Rd, Portland, 97201",+1-555-9099,business
+DIR-00183,Silverline Chpemicals Group Co.,"5572 Main Rd, Portland, 97201",+1-555-7547,business
+DIR-00184,Pharma Falcon Inc,"5734 Sunset Ln, Spokane, 99201",+1-555-4997,business
+DIR-00185,Pinecrest Technologies Holdings GmbH,"Lincoln 3242, Utrecht, 3511 LN",+1-555-3417,business
+DIR-00186,Ironwood Foods,"Prinsengracht 7611, Eindhoven, 5611 EM",+1-555-1090,business
+DIR-00187,Ironwood Foods N.V.,"Prkinsengracht 7611, Eindhoven",+1-555-2746,business
+DIR-00188,Ashworth Auto Repair Ltd.,"Bahnhofestrasse 5305, Antwerp, 2000",+1-555-7965,business
+DIR-00189,Ironwood Media Group Company,"4971 Park Dr, Denver, 80202",+1-555-4585,business
+DIR-00190,Analytics Group Ironwood Corp.,"626 Oak Rd, Raleigh, 27601",+1-555-3881,business
+DIR-00191,Silverline Softwrae LLC,"6309 Industrial Parkway Dr, Reno, 89501",+1-555-9486,business
+DIR-00192,BLUEWATER AGRICULTURE BV,"Kersktraat 5277, Eindhoven, 5611 EM",+1-555-8611,business
+DIR-00193,Summit Agriculture Holdings Company,"5636 Cedar Dr, Spokane, 99201",+1-555-1822,business
+DIR-00194,Pinecrest Pizza Group Corp.,"8596 Market Dr, Portland, 97201",+1-555-5082,business
+DIR-00195,Coastal Chemicals Group Company,"5553 Kerkstraat St, Spokane, 99201",+1-555-2988,business
+DIR-00196,Coastal Chemicals Group,"5553 Kerkstraat St, Spokane, 99201",+1-555-8478,business
+DIR-00197,Sterling Atuo Repair N.V.,"Kerkstraat 2122, Rotterdam, 3011 CE",+1-555-3184,business
+DIR-00198,Granite Auto Repair Group Company,"2103 Market St, Spokane, 99201",+1-555-8612,business
+DIR-00199,Wexford Textiles Holdings,"Lincln 5070, Munich, 80331",+1-555-9702,business
+DIR-00200,Kingsley Energy Holdings Inc,"2548 Cedar Rd, Austin",+1-555-6198,business
+DIR-00201,Marlow Plumbing LLC,"628 Framklin Ct, Tulsa, 74103",+1-555-8251,business
+DIR-00202,Consulting Granite Holdings Inc,"2722 Indsutrial Parkway St, 83702",+1-555-9270,business
+DIR-00203,Pinecrest Agriculture,"7365 Main Dr, Columbus, 43215",+1-555-7991,business
+DIR-00204,Thornbury Plumbing Holdings Corporatiin,"9355 Industrial Parkway Blvd, Raleigh, 27601",+1-555-9976,business
+DIR-00205,Thornbury Plumbing Holdings Corporation,"9355 Indusrtial Parkway Blvd, Raleigh, 27601",+1-555-8305,business
+DIR-00206,Wexford Pharma Group B.V.,"Kerkstraat 3281, Utrecht, 3511 LN",+1-555-3607,business
+DIR-00207,Summit Auto Repair Group GmbH,"Elm 9095, Leiden, 2311 GJ",+1-555-8777,business
+DIR-00208,Coastal Mfg. Holdings GmbH,"Market 7371, Utrecht",+1-555-8373,business
+DIR-00209,Materials Silverline Group GmbH,"River 446, Amsterdam, 1017 AB",+1-555-5246,business
+DIR-00210,Fairmont Materials Group Inc.,"6152 Main St, Tampa, 33602",+1-555-5050,business
+DIR-00211,Cobalt Electric Holdings BV,"Union 637, Eindhoven",+1-555-5543,business
+DIR-00212,Harborview Bakery N.V.,"Kerkstraat 7359, Amsterdam, 1017 AB",+1-555-9540,business
+DIR-00213,Northgate Freight Holdings B.V.,"Kerkstraat 9001, Leiden, 2311 GJ",+1-555-8939,business
+DIR-00214,Coastal Materials Group Ic.,"792 Man Blvd, Spokane, 99201",+1-555-4919,business
+DIR-00215,Novara Manufacturing Holdinsg N.V.,"Mill 9786, Amsterdam, 1017 AB",+1-555-5499,business
+DIR-00216,Ashworth Materials,"River 4782, Amsterdam, 1017 AB",+1-555-8206,business
+DIR-00217,PINECREST AUTOMOTIVE GROUP BV,"Market 1412, Antwerp, 2000",+1-555-2269,business
+DIR-00218,Hollowell Construction Company,"8326 Mill St, Boise",+1-555-5681,business
+DIR-00219,BLUEWATER AUTO REPAIR GROUP GMBH,Maple 4165,+1-555-4841,business
+DIR-00220,Lakeside Materials B.V.,"Franklin 9543, Utrecht, 3511 LN",+1-555-5451,business
+DIR-00221,MARLOW SYSTEMS INC,"7622 Harbor Ln, Portland, 97201",+1-555-6502,business
+DIR-00222,Group Ironwood Pizza B.V.,"Chutch 4817, Amsterdam, 1017 AB",+1-555-6238,business
+DIR-00223,Bluewater Group Systems Ltd.,"Mill 6534, Eindhoven, 5611 EM",+1-555-9849,business
+DIR-00224,Group Analytics Crestline Company,"793 Bahnhofstrasrse Rd, Raleigh, 27601",+1-555-2320,business
+DIR-00225,Fairmont Robotics Group Company,"7214 Highland Rd, Portland",+1-555-3267,business
+DIR-00226,Kingsley Textiles Corporation,"1363 Rivre St, Boise, 83702",+1-555-3471,business
+DIR-00227,Redstone Construction Group,"Cedar 1690, Antwerp, 2000",+1-555-4788,business
+DIR-00228,Agriculture Sterling N.V.,"Industrial Parkway 2740, Antwerp, 2000",+1-555-7275,business
+DIR-00229,Lakeside Software Group Corporation,"949 Cesar Ln, Spokane, 99201",+1-555-3503,business
+DIR-00230,Wexfrod Electric Co.,"2631 Male Ave, Tulsa",+1-555-4505,business
+DIR-00231,Cedarbrook Logistics Holdings,"Bahnhofstrase 3876, Antwerp, 2000",+1-555-2052,business
+DIR-00232,Ashworth Logistics,"7381 Subset Rd, Madison, 53703",+1-555-7797,business
+DIR-00233,Ashworth Consulting GmbH,"Ftanklin 6531, Hamburg",+1-555-7678,business
+DIR-00234,Pizza Anchor Group Inc,"4688 Harbor Ave, Austin, 73301",+1-555-6421,business
+DIR-00235,Ironwood Agriclture Holdings Co.,"7302 Cedar Ct, Spokane",+1-555-9890,business
+DIR-00236,RIDGELINE COFFEE GROUP B.V.,"Mill 9021, Hamburg",+1-555-8633,business
+DIR-00237,Vantage Pizza,"Makret 5932, Munich, 80331",+1-555-7812,business
+DIR-00238,Crestline Electric Holdings,"8104 Maple Rd, Reno, 89501",+1-555-2020,business
+DIR-00239,Novara Elctric Inc,"1422 Cedar Rd, Boise, 83702",+1-555-4388,business
+DIR-00240,Thornbury Phamra Group N.V.,"Cedar 9429, Utrecht, 3511 LN",+1-555-7883,business
+DIR-00241,Ironwood Agriculture Group Ltd.,"Washington 5654, Leiden, 2311 GJ",+1-555-7381,business
+DIR-00242,REDSTONE BAKERY HOLDINGS N.V.,"Oak 8248, Rotterdam, 3011 CE",+1-555-1320,business
+DIR-00243,Sterling Foods Holdings Corporation,"3704 Suznset Dr, Raleigh, 27601",+1-555-7232,business
+DIR-00244,Anchor Eenrgy Ltd.,"Washingtn 4506, Hamburg, 20095",+1-555-8814,business
+DIR-00245,Silverline Pharma BV,"Prinsengracht 9706, Utrecht, 3511 LN",+1-555-1096,business
+DIR-00246,Pharma Silverline BV,"Prinsengracht 9706, Utrecht, 3511 LN",+1-555-6763,business
+DIR-00247,Greystone Hardware,"9244 Oak Ct, Denver, 80202",+1-555-5892,business
+DIR-00248,Marlow Analytics Corporation,"7922 Main Ct, Spokane, 99201",+1-555-7389,business
+DIR-00249,Novara Mfg. Inc.,"2599 Industrial Parkway Blvd, Madison, 53703",+1-555-7865,business
+DIR-00250,COBALT SOFTWARE HOLDINGS CORPORATION,"5241 Sumset Blvd, Portland",+1-555-9818,business
+DIR-00251,Software Holdings Cobalt Corporation,"5241 Sunset Blvd, Portland, 97201",+1-555-9947,business
+DIR-00252,Wexford Construction Holdings,"Industrial Parkway 3970, Rotterdam, 3011 CE",+1-555-4613,business
+DIR-00253,Pinecrest Consulting Holdings Inc.,"4764 Highland Ct, Tulsa",+1-555-8999,business
+DIR-00254,Vantage Plumbing Group LLC,"5133 Church Ct, Portland",+1-555-4595,business
+DIR-00255,Wexford Agriculture Group Corporation,"8158 Mapmle St, Boise, 83702",+1-555-5471,business
+DIR-00256,Pinecrest Energy Corporation,"807 Oak Rd, 53703",+1-555-8140,business
+DIR-00257,Brookhaven Textiles Holdings NV,"Prinsengracht 848, 2311 GJ",+1-555-8956,business
+DIR-00258,Delacroix Analytics Holdings Corp.,"8271 Industrial Parkway Ct, Reno, 89501",+1-555-1475,business
+DIR-00259,Cobalt Construction Group BV,"Kerkstraat 3271, Leiden, 2311 GJ",+1-555-7371,business
+DIR-00260,Bluewater Logistics Holdings Incorporated,"5466 Harbor Dr, Madison, 53703",+1-555-6507,business
+DIR-00261,Wexford Consulting Group,"5228 Lincoln Blvd, Tulsa",+1-555-7624,business
+DIR-00262,Sterling Automotive Group Ltd.,"Mill 8361, Eindhoven, 5611 EM",+1-555-3704,business
+DIR-00263,Sterling Media Holdings,"Elm 5437, Brussels, 1000",+1-555-8657,business
+DIR-00264,Group Northgate Software Corporation,"9487 Prinsengrahct Ave, Wichita, 67202",+1-555-3091,business
+DIR-00265,Northgate Group Software Corporation,"9487 Pinsengracht Ave, Wichita",+1-555-9751,business
+DIR-00266,Thornbury Foods Co.,"6239 Wasihngton Ct, Spokane",+1-555-1441,business
+DIR-00267,Delacroix Systems,"8619 Hihgland Rd, Portland, 97201",+1-555-7455,business
+DIR-00268,Marlow Systems Corporation,"4341 Kerkstaat Blvd, Columbus, 43215",+1-555-1444,business
+DIR-00269,Highland Construction Group B.V.,"Unifon 4886, Munich, 80331",+1-555-2375,business
+DIR-00270,Marlow Chemicals Group,"5664 Washington Rd, Denver, 80202",+1-555-8022,business
+DIR-00271,Silverline Textiles Group Co.,"4211 Harbor Ave, Columbus, 43215",+1-555-3223,business
+DIR-00272,Highland Construction GmbH,"Elm 2259, Munich",+1-555-8564,business
+DIR-00273,HOLLOWELL MATERIALS INC,"870 Elm Blvd, Tampa, 33602",+1-555-3977,business
+DIR-00274,THORNBURY MEDIA BV,"Franklin 4716, Hamburg",+1-555-1823,business
+DIR-00275,Silverline Auto Repair BV,"Oak 8777, 3511 LN",+1-555-5262,business
+DIR-00276,Redstone Logistics Group Company,"8126 Lincoln Ln, Raleigh, 27601",+1-555-7211,business
+DIR-00277,Acme Analytics,"Fanklin 1768, Hamburg, 20095",+1-555-6363,business
+DIR-00278,Pharma Group Marlow Inc,"8271 Industrial Parkway Rd, Columbus, 43215",+1-555-4467,business
+DIR-00279,Coastal Automotive BV,"Kerkstraat 2885, Brussels, 1000",+1-555-8449,business
+DIR-00280,Wexford Systems Holdings N.V.,"Lincoln 1572, Utrecht, 3511 LN",+1-555-6355,business
+DIR-00281,Pinecrest Industrual Group Corp.,"3868 Industrial Parkway Ct, Raleigh",+1-555-6529,business
+DIR-00282,Sterling Automotive Limited,"Park 197, Antwerp, 2000",+1-555-7211,business
+DIR-00283,Suommit Coffee Holdings N.V.,"Lincoln 5036, 1000",+1-555-5558,business
+DIR-00284,Sterling Holdings Pizza GmbH,"Krekstraat 6031, Munich, 80331",+1-555-7906,business
+DIR-00285,Thornbury Bakery,"3588 Main Ln, Tulsa, 74103",+1-555-5133,business
+DIR-00286,Delacroix Pharma Holdings LLC,"8802 Washington Ave, Tampa, 33602",+1-555-2341,business
+DIR-00287,Cedarbhrook Technologies BV,"Habror 9564, Rotterdam, 3011 CE",+1-555-8705,business
+DIR-00288,Cedarbrook Electric Holdings,"Market 2171, Brussels, 1000",+1-555-1317,business
+DIR-00289,Whitfield Automotive Holdings,"Sunset 6951, Rotterdam, 3011 CE",+1-555-9837,business
+DIR-00290,Summit Group Manufacturing Inc.,"4713 Rivr Ave, Portland, 97201",+1-555-1853,business
+DIR-00291,Westgate Textiles Group N.V.,"Highland 6194, Rotterdam, 3011 CE",+1-555-6733,business
+DIR-00292,Marlow Consulting GmbH,"Lincorln 1953, Leiden, 2311 GJ",+1-555-4673,business
+DIR-00293,Brookhaven Bakery,"4065 Industrial Parkway Rd, Portland, 97201",+1-555-2124,business
+DIR-00294,Brookhaven Bakery,"3386 Cedar St, Columbus, 43215",+1-555-1659,business
+DIR-00295,Foxhollow Auto Repair Inc,"3569 Oak Ave, 53703",+1-555-1508,business
+DIR-00296,Foxhollow Auto Relpair LLC,"3891 Union Ave, Tulsa, 74103",+1-555-5051,business
+DIR-00297,Hollowell Coffee LLC,"6254 Market Rd, Boise, 83702",+1-555-4266,business
+DIR-00298,Hollowell Coffee,"3702 Union Ct, Raleigh, 27601",+1-555-1333,business
+DIR-00299,Union Hardware,"1305 Industrial Parkway Ct, Denver",+1-555-3496,business
+DIR-00300,Brambleton Bajery,"9912 Cdhurch Blvd, Columbus",+1-555-4908,business
+DIR-00301,Kingsley Hardare,"6233 Ptinsengracht Ct, Madison, 53703",+1-555-3068,business
+DIR-00302,Pinecrest Hardware,"114 River Ave, Spokane, 99201",+1-555-8758,business
+DIR-00303,Eastbrook Auto Repair,"9048 River St, Wichita, 67202",+1-555-2874,business
+DIR-00304,Auto Eastbrook Repair,"1588 Mrket Ave, Portland, 97201",+1-555-4571,business
+DIR-00305,Pinecrest Coffee,"3710 Union Ln, Tulsa",+1-555-8619,business
+DIR-00306,Pinecrest Coffee LLC,"9065 Harbor St, Reno, 89501",+1-555-5198,business
+DIR-00307,Acme Coffee Inc.,"9296 Habror Rd, Austin, 73301",+1-555-7043,business
+DIR-00308,Acme Coffee,"3404 Pqrinsengracht Ave, Madison, 53703",+1-555-3749,business
+DIR-00309,Auto Brookhaven Repair,1294 Market Ln,+1-555-2876,business
+DIR-00310,Brookhaven Auto Repair L.L.C.,"495 Bahnhofstrasse Rd, Portland, 97201",+1-555-3683,business
+DIR-00311,Cedarbrook Hardware LLC,"4047 Cedar St, Columbus, 43215",+1-555-6096,business
+DIR-00312,Cedarbrook Hardware,"95 Unon Blvd, Tampa",+1-555-2771,business
+DIR-00313,Fairmnt Pizza,"5808 Mill St, Austin, 73301",+1-555-1420,business
+DIR-00314,Fairmont Pizza Inc,"9177 Main Dr, Portland, 97201",+1-555-6111,business
+DIR-00315,Hollowell Coffee LLC,"6909 Union Blvd, Spokane, 99201",+1-555-7149,business
+DIR-00316,Hlolowell Coffee LLC,"1762 Washington Rd, Boise, 83702",+1-555-7498,business
+DIR-00317,Hardware Acme Inc.,"3300 Harbor Rd, Tampa, 33602",+1-555-4249,business
+DIR-00318,Acme Hardware L.L.C.,"6171 Pak Ct, Tulsa, 74103",+1-555-2245,business
+DIR-00319,BROOKHAVEN PIZZA INC.,"3444 Industrial Parkway Ct, Austin, 73301",+1-555-4978,business
+DIR-00320,Brookhaven Pizza,"4149 Washington Ln, 74103",+1-555-2669,business
+DIR-00321,Amberfield Hardware,"5900 Mpill Dr, Austin, 73301",+1-555-5941,business
+DIR-00322,Amberfield Hardware,"6557 Franklin Ct, Madison, 53703",+1-555-2983,business
+DIR-00323,Amberfield Auto Repair,"6418 Industrial Parkway Ct, Denver, 80202",+1-555-1672,business
+DIR-00324,Auto Amberfield Repair LLC,"1416 Elm Ct, Austin, 73301",+1-555-6688,business
+DIR-00325,Union Piza Inc.,"7422 Franklin St, Raleigh, 27601",+1-555-9728,business
+DIR-00326,Union Pizza,"2868 Milll Ave, Tampa, 33602",+1-555-8018,business
+DIR-00327,Cobalt Bakery,"3073 Sunset Rd, Madison, 53703",+1-555-7071,business
+DIR-00328,Crestline Hardware,"1881 Sunset Rd, Austin, 73301",+1-555-2129,business
+DIR-00329,Crestline Hardawre LLC,"1941 Main Rd, Raleigh, 27601",+1-555-9289,business

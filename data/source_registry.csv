@@ -1,0 +1,316 @@
+reg_id,legal_name,street_address,city,postal_code,country,incorporation_year
+REG-00001,Northgate Hardware Group BV,Washington 3667,Rotterdam,3011 CE,EU,1992
+REG-00002,Manufacturing Marlow N.V.,Maple 530,Rotterdam,3011 CE,EU,1986
+REG-00003,Wexofrd Software Holdings LLC,3267 Bahnhofstrasse Ln,Reno,89501,US,2002
+REG-00004,UNION ENERGY GROUP INC.,1529 Highland St,Tampa,33602,US,2000
+REG-00005,Foxhollow Freight Holdings,Elm 8795,Brussels,1000,EU,1999
+REG-00006,Coastal Plumbilng LLC,5935 Prinsengracht Ave,Wichita,67202,US,1993
+REG-00007,Eastbrook Bakery Group Inc.,3824 Elm Blvd,Raleigh,27601,US,1991
+REG-00008,Foxhollow Auto Repair Holdings,Lincoln 4020,Eindhoven,5611 EM,EU,2019
+REG-00009,DELACROIX MATERIALS CORPORATION,926 Main Ct,Denver,80202,US,1990
+REG-00010,Delacroix Materials,926 Main Ct,Denver,80202,US,2022
+REG-00011,BROOKHAVEN FREIGHT HOLDINGS BV,Frankiln 9302,Munich,80331,EU,2012
+REG-00012,Brookhaven Auto Repair Group B.V.,Washington 4349,Munich,80331,EU,1987
+REG-00013,Brookhaven Auto Repair Group B.V.,Washington 4349,Munich,80331,EU,1986
+REG-00014,Marlow Freight Limited,Prinsengracht 7029,Brussels,1000,EU,1990
+REG-00015,Amberfield Sofyware Holdings Corp.,6262 Kerksraat Blvd,Reno,89501,US,1998
+REG-00016,Delacroix Landscaping Holdings Company,1886 Mlil Ct,,27601,US,1999
+REG-00017,Cobalt Technologies Group NV,Industriacl Parkway 2601,Amsterdam,1017 AB,EU,2017
+REG-00018,Wexford Software Holdings,Lincoln 6136,Leiden,2311 GJ,EU,2023
+REG-00019,Sterling Materials Holdings BV,Ceidar 9305,Rotterdam,3011 CE,EU,1986
+REG-00020,Bakery Ironwood BV,Harbor 2113,Leiden,2311 GJ,EU,2020
+REG-00021,Hollowell Landscaping,3480 Mill Ct,Wichita,67202,US,1997
+REG-00022,Eastbrook Manufacturing Group,9648 Mill Ave,Tulsa,74103,US,2019
+REG-00023,Pinecrest Freight Corp.,3520 Mill Ave,Wichita,67202,US,2011
+REG-00024,Ashworth Automotive Group BV,Rivr 7759,Munich,80331,EU,1999
+REG-00025,Amberfield Textiles Group,7661 Oak Ln,Spokane,,US,2013
+REG-00026,Kingsley Media Holdings Company,6580 Oak Ave,Boise,83702,US,2022
+REG-00027,Granite Freight Group Corporation,6940 Mull Ln,Wichita,67202,US,2002
+REG-00028,Analytics Crestline Holdings Inc.,9499 Mill St,Wichita,67202,US,1985
+REG-00029,Summit Group Automotive LLC,8711 Licnoln St,Reno,89501,US,1995
+REG-00030,Redstone Manufacturing,3863 Highland St,Tulsa,74103,US,2012
+REG-00031,Logistics Foxhollow Inc.,6878 Prinsengracht Dr,,89501,US,2006
+REG-00032,Anchor Energy Co.,5157 Man Rd,Boise,83702,US,2002
+REG-00033,Sterling Agriculture Group Company,1198 Maple Blvd,Tulsa,,US,1994
+REG-00034,Meridian Mkanufacturing BV,Park 8298,Utrecht,3511 LN,EU,1998
+REG-00035,Ironwood Materials Group GmbH,Industrial Parkway 2594,Leiden,2311 GJ,EU,2006
+REG-00036,Greystone Electric Limited,Mill 138,Hamburg,,EU,1991
+REG-00037,Meridian Consulting Group BV,Mill 1763,Utrecht,,EU,1990
+REG-00038,Foxhollow Energy,3345 Bahnhofstrasse Ct,Raleigh,27601,US,2009
+REG-00039,ANCHOR LANDSCAPING HOLDINGS INC.,6949 Park St,Denver,80202,US,1991
+REG-00040,Harborview Auto Group Repair Inc,7249 Mill Ln,Boise,83702,US,2007
+REG-00041,Falcon Manufacturing Inc,8948 Oak Ct,Tampa,33602,US,2007
+REG-00042,WHITFIELD COFFEE HOLDINGS B.V.,Mil 5804,Brussels,1000,EU,2023
+REG-00043,Union Materials Holdings BV,Maeple 6765,Utrecht,,EU,2001
+REG-00044,Cobalt Electric Group B.V.,Lincvoln 4381,Rotterdam,3011 CE,EU,1987
+REG-00045,Bluewater Landscaping Group Inc,3279 Inmdustrial Parkway Rd,Raleigh,27601,US,2014
+REG-00046,Highland Textiles,Mlill 6558,Antwerp,2000,EU,2019
+REG-00047,Fakcon Freight Holdings Ltd.,Oak 4359,Rotterdam,,EU,1992
+REG-00048,Lakeside Hardware Group,9942 Market St,Boise,83702,US,2009
+REG-00049,Crestline Freight Holdings N.V.,Market 37,Leiden,2311 GJ,EU,1990
+REG-00050,Crestlne Textiles Group B.V.,Kerkstraat 5419,Antwerp,2000,EU,2020
+REG-00051,Falcon Hardware Group Ltd.,Ricer 5077,Antwerp,,EU,2003
+REG-00052,Construction Coastal Holdings Inc,6898 Highland Ln,Wichita,67202,US,2008
+REG-00053,Greystone Automotive Group,Maple 8987,Hamburg,20095,EU,2021
+REG-00054,Amberfield Electric,5289 Industrial Parkway Blvd,Madison,53703,US,1997
+REG-00055,Wexford Media BV,Union 1399,Leiden,2311 GJ,EU,1989
+REG-00056,Greystone Sytems Holdings BV,Main 5095,Munich,80331,EU,1987
+REG-00057,Greystone Syystems Holdings BV,Main 5095,Munich,80331,EU,1999
+REG-00058,Bluewater Materials Group L.L.C.,1203 Industrial Parkway Blvd,Spokane,,US,2003
+REG-00059,Granite Media Group Inc,2427 Bahnhofstrasse Ln,Denver,,US,1990
+REG-00060,Pinecrest Landscaping Holdings Corporation,2194 Industrial Parkway Ln,Reno,89501,US,1999
+REG-00061,Foxhollow Systens Group Ltd.,Rver 8280,Leiden,2311 GJ,EU,1991
+REG-00062,Vantage Hardware Group,4256 Main Ct,Spokane,99201,US,2009
+REG-00063,HOLLOWELL MEDIA INC,4509 Industrial Parkway St,Wichita,67202,US,2002
+REG-00064,HOLLOWELL MEDIA INC,4509 Idustrial Parkway St,Wichita,67202,US,2014
+REG-00065,Highland Systems Group,1330 Washnigton Ave,Columbus,43215,US,2008
+REG-00066,Union Pizza Holdings Inc,6807 Riber Rd,,89501,US,1995
+REG-00067,Summit Energy Group Corp.,9579 Mraple Ct,Tulsa,74103,US,2008
+REG-00068,Acme Textiles Group Company,6399 River Dr,Wichita,67202,US,2007
+REG-00069,FOXHOLLOW MATERIALS GROUP BV,Rivr 4481,Eindhoven,5611 EM,EU,1998
+REG-00070,Foxhollow Group Materials BV,Rver 4481,Eindhoven,5611 EM,EU,2002
+REG-00071,Amberfield Consulting Group,833 Park Blvd,Tampa,33602,US,1989
+REG-00072,Marlow Logistics Group Inc,1134 Bahnhofstrasse St,Denver,,US,2023
+REG-00073,Crestline Plumbing Holdings Ltd.,Main 2506,Utrecht,3511 LN,EU,1995
+REG-00074,Falcon Automotive Holdings,4208 Sunset Ave,Tulsa,74103,US,2019
+REG-00075,Falcon Automotive Holdings Corp.,4208 Sunset Ave,Tulsa,74103,US,2000
+REG-00076,Falcon Bakery Holdings,Prinsengrcht 1781,Amsterdam,1017 AB,EU,1995
+REG-00077,Ashworth Coffee Group N.V.,Cedar 3259,Munich,80331,EU,2014
+REG-00078,Amberfield Coffee Group,8299 Bahnhofstrasse Rd,Denver,80202,US,2009
+REG-00079,Amberfield Coffee Group Inc.,8299 Bahnhofstrssse Rd,Denver,80202,US,2002
+REG-00080,Kingsley Technologies Group,Washington 7542,Brussels,1000,EU,2020
+REG-00081,Hollowell Auto Repair Group LLC,8827 Harbor Blvd,Boise,83702,US,1999
+REG-00082,Brambleton Freight Group BV,Park 1429,Eindhoven,5611 EM,EU,2005
+REG-00083,Novara Automotive,6219 Franlklin St,Madison,53703,US,1988
+REG-00084,Novara Automotive Company,6219 Franklin St,Madison,53703,US,1999
+REG-00085,Redstone Media Holdings GmbH,Frankloin 4242,Hamburg,20095,EU,1987
+REG-00086,Kingsley Construction Holdings,Industrial Parkway 8051,Amsterdam,1017 AB,EU,2005
+REG-00087,Eastbrook Chemicals,5026 Prinsengracth Rd,Madison,53703,US,2010
+REG-00088,Lakesdie Robotics LLC,5429 Sunset Ln,Madison,53703,US,2002
+REG-00089,Anchor Materials Holdings Company,3165 Franklin St,Wichita,67202,US,1989
+REG-00090,Redstone Energy Holdings Co.,7943 Park Ln,Tulsa,74103,US,1998
+REG-00091,Hollowell Software Group,Union 3190,Munich,80331,EU,2021
+REG-00092,Sterling Ind. LLC,2083 Park St,Denver,80202,US,2005
+REG-00093,Harborview Auto Repsir Group Inc.,210 Prinsengracht Rd,Madison,53703,US,1998
+REG-00094,Cobalt Foods Holdings Corporation,7837 Elm Ct,Austin,73301,US,2016
+REG-00095,Automotive Ironwood Co.,888 Wshington Ave,Tulsa,,US,2010
+REG-00096,Silverline Materials Holdings Ltd.,Kerkstraat 6828,Munich,80331,EU,2014
+REG-00097,Summit Software,3414 Bahwnhofstrasse Ave,,27601,US,1994
+REG-00098,Vantage Holdings Materials Ltd.,Lincoln 1239,Amsterdam,1017 AB,EU,2001
+REG-00099,Foxhollow Media Group Ibc.,3802 Unino Ln,Raleigh,27601,US,1993
+REG-00100,Novara Mfg. BV,Bahnhofstrasse 4344,Munich,80331,EU,2000
+REG-00101,Marlow Materials Inc,4362 Washongton St,Denver,80202,US,2020
+REG-00102,Sterlhing Pizza Group Corporation,8209 Mill Blvd,Madison,,US,2019
+REG-00103,Bluewater Robotics Corporation,9901 Park St,Austin,,US,2001
+REG-00104,Ashworth Automotive Holdings Company,4425 Prinsengract St,Portland,97201,US,2022
+REG-00105,Cedarbrook Freight Holdings,7151 Bahnhofstrasse Ct,Madison,53703,US,2012
+REG-00106,Thornbury Textiles Group GmbH,Elm 5270,Utrecht,3511 LN,EU,2022
+REG-00107,Kingsley Analytics,9022 Oak Blvd,,73301,US,2010
+REG-00108,Ridgeline Technologies Group Company,8441 Maple Ln,Reno,89501,US,2008
+REG-00109,Energy Summit Corporation,8177 Bahnhofstrhasse Blvd,Denver,80202,US,1999
+REG-00110,Delacroix Consulting Group Corp.,7951 Elm St,Spokane,99201,US,1993
+REG-00111,Pinecrest Pizza Holdings GmbH,Maple 9034,Leiden,2311 GJ,EU,2017
+REG-00112,Eastbrook Plumbing Holdings Corporation,1934 Bahnhofstrasse Ct,Portland,97201,US,2016
+REG-00113,Coastal Pharma Corporation,6817 Harbor Blvd,Columbus,43215,US,1990
+REG-00114,Union Chemicals Holings LLC,8337 Washington Ct,Austin,73301,US,1988
+REG-00115,Westgate Systems Corporation,52 Union Ln,Raleigh,27601,US,1992
+REG-00116,Brambleton Cofee Group BV,Mill 7326,Eindhoven,5611 EM,EU,1994
+REG-00117,DELACROIX BAKERY CORP.,7470 Franklin Ct,Columbus,43215,US,1995
+REG-00118,Brambleton Systems Holdings Company,7223 Elm Dr,Madison,53703,US,2012
+REG-00119,Union Robotics Incorporated,1235 Harbor Ct,Raleigh,27601,US,2023
+REG-00120,BROOKHAVEN AUTO REPAIR HOLDINGS COMPANY,5393 Mill Blvd,Tampa,33602,US,1989
+REG-00121,Kingsley Landscaping BV,Mani 1131,Hamburg,20095,EU,2009
+REG-00122,Robotics Silverline Holdings B.V.,Lincoln 7279,Hamburg,,EU,2009
+REG-00123,Bluewater Systems Holdings GmbH,Sunset 5883,Brussels,1000,EU,2023
+REG-00124,Hollowell Robotics Co.,2960 Lincokn Ave,Austin,73301,US,2014
+REG-00125,Granote Software BV,Prinsengracht 8163,Utrecht,3511 LN,EU,2018
+REG-00126,Acnhor Agriculture Group Co.,163 Industrial Parkway Rd,Spokane,99201,US,2001
+REG-00127,Ironwood Agriculture Group,4911 Bahnhofstrasse Blvd,Wichita,67202,US,2020
+REG-00128,ASHWORTH ANALYTICS CORPORATION,369 Hgihland Rd,Denver,,US,1985
+REG-00129,Sterling Electric Group B.V.,Sunset 9505,Utrecht,3511 LN,EU,1992
+REG-00130,Coastal Systems Corp.,2887 Church Ave,Reno,89501,US,2019
+REG-00131,Fairmont Pharma GmbH,Park 2705,,5611 EM,EU,2002
+REG-00132,Coastal Hardware Group B..V,Cedar 7683,Utrecht,3511 LN,EU,2006
+REG-00133,Eastbrook Lansdcaping N.V.,Sunest 9141,Rotterdam,3011 CE,EU,1992
+REG-00134,Avme Freight B.V.,Sunset 7461,Hamburg,20095,EU,2003
+REG-00135,Fairmont Technologies Inc,7734 Maple Dr,Reno,89501,US,2012
+REG-00136,Bluewater Logistics Group Corporation,1912 Elm Ave,Reno,89501,US,1995
+REG-00137,Novara Textiles Co.,8860 River Dr,Wichita,67202,US,2014
+REG-00138,Westgate Auto Repair Hokdings N.V.,Pamrk 6696,Amsterdam,1017 AB,EU,1985
+REG-00139,Whitfield Agriculture Group BV,Elm 5952,Antwerp,2000,EU,2001
+REG-00140,Group Lakeside Logistics Corporation,3119 Elm Ct,Madison,53703,US,2017
+REG-00141,Whitfield Auto Repair L.L.C.,359 Oak Ct,Tampa,33602,US,1996
+REG-00142,Harborview Electric Inc,1134 Mjill Ave,Tulsa,74103,US,2017
+REG-00143,Eastbrook Ssytems Holdings Company,9774 Maple Rd,Portland,97201,US,1991
+REG-00144,Marlow Freight Holdings B.V.,Washington 432,Amsterdam,1017 AB,EU,2004
+REG-00145,Pinecrest Automotive Group Inc.,2864 Park St,Portland,97201,US,2017
+REG-00146,Hollowell Technologies B.V.,Industrial Parkway 7812,Antwerp,2000,EU,2023
+REG-00147,Meridian Agriclture Inc,720 Market Rd,Madison,53703,US,1997
+REG-00148,Northgate Logistics Group N.V.,Elm 6994,Eindhoven,5611 EM,EU,1994
+REG-00149,Cedarbrook Manufacturing Holdings GmbH,Washignton 9976,Rotterdam,3011 CE,EU,2008
+REG-00150,Greystone Auto Repair,5337 Hgihland Dr,Reno,89501,US,1995
+REG-00151,WEXFORD SOFTWARE GROUP INC.,1884 Bahnhofstrasse Ln,Reno,89501,US,2019
+REG-00152,Group Robotics Whitfield BV,Franklin 6789,Eindhoven,5611 EM,EU,2018
+REG-00153,Whitfield Robotics Group,Franklin 6789,Eindhoven,5611 EM,EU,1985
+REG-00154,Meridian Systems Group Corporation,4186 Subset Ave,Spokane,99201,US,2023
+REG-00155,IRONWOOD MANUFACTURING HOLDINGS B.V.,Elm 7085,Antwerp,2000,EU,2005
+REG-00156,Wexford Eenrgy Holdings Co.,7910 Main Ct,,73301,US,2016
+REG-00157,Delacroix Textiles Holdings Company,4574 Prinsengracht Ave,Boise,83702,US,1986
+REG-00158,Delacroix Textiles Holdings Company,4574 Prinsengracht Ave,Boise,83702,US,1992
+REG-00159,Greystone Software,Kerykstraat 440,Hamburg,20095,EU,2008
+REG-00160,Brookhaven Manufacturing Holdings,512 Cedar Ln,Reno,,US,2004
+REG-00161,Westgate Agriculture Group Incorporated,6072 Union Ln,Tampa,33602,US,2000
+REG-00162,Ashworth Software Hokdings B.V.,Linocln 2559,Amsterdam,1017 AB,EU,1988
+REG-00163,Agriculture Highland N.V.,Kerkstraat 7967,Eindhoven,5611 EM,EU,2000
+REG-00164,Whitfield Bakery Inc,5665 Riber St,Raleigh,27601,US,2021
+REG-00165,Brambleton Media GmbH,Main 754,Brussels,1000,EU,1990
+REG-00166,Industrial Holdings Summit GmbH,Washington 3470,Hamburg,20095,EU,1990
+REG-00167,Falcon Ind. Group Co.,7065 Lincoln Ave,Boise,83702,US,2016
+REG-00168,Eastbrook Pharma Cmpany,5812 Cedar Blvd,Wichita,67202,US,1989
+REG-00169,Northgate Agricuture Holdings Company,5139 Prinsengracht Blvd,Tulsa,74103,US,2019
+REG-00170,Westgate Analytics Holdings Corporation,351 Franklin Ave,Tulsa,74103,US,1993
+REG-00171,Fairmont Manufacturing Group Company,1744 Main Blvd,Tulsa,74103,US,1993
+REG-00172,Silvcerline Chemicals Group Co.,5572 Man Rd,Portland,97201,US,2015
+REG-00173,Holdings Technologies Pinecrest GmbH,Linclon 3242,Utrecht,3511 LN,EU,2020
+REG-00174,Ironwood Foods N.V.,Prinsengracht 7611,,,EU,1995
+REG-00175,Ashworth Auto Repair Ltd.,Bahnhofstrasse 5305,Antwerp,2000,EU,2001
+REG-00176,Repair Auto Ashworth Ltd.,Bahnhofstrasse 5305,Antwerp,2000,EU,2018
+REG-00177,Ironwood Group Media Co.,4971 Paek Dr,Denver,80202,US,2023
+REG-00178,IRONWOOD ANALYTICS GROUP CORP.,626 Oak Rd,Raleigh,27601,US,2012
+REG-00179,Silverline Software,6309 Industrial Parkway Dr,,89501,US,1998
+REG-00180,Bluewater Agriculture,Kerkstnraat 5277,Eindhoven,5611 EM,EU,2019
+REG-00181,Pinecrest Pizza Group,8596 Maket Dr,Portland,97201,US,1997
+REG-00182,Coastal Chemicals Group Company,5553 Kerkstraat St,Spokane,99201,US,2004
+REG-00183,Ironwood Systems Holdings,Union 6343,,20095,EU,2010
+REG-00184,Holdings Foxhollow Landscaping GmbH,Prnisengracht 1345,Utrecht,3511 LN,EU,2008
+REG-00185,Sterling Auto Repair N.V.,Kerkstraat 2122,Rotterdam,3011 CE,EU,2013
+REG-00186,Granite Auto Repair Group Company,2103 Market St,Spokane,99201,US,2018
+REG-00187,Wexford Holdings Textiles GmbH,Lincln 5070,Munich,,EU,2013
+REG-00188,Wexford Textiles Holdings GmH,Libcoln 5070,Munich,80331,EU,1992
+REG-00189,Kingsley Energy Holdings Inc,2548 Cedar Rd,Austin,73301,US,2000
+REG-00190,Marlow Plumbing L.L.C.,628 Franklin Ct,Tulsa,74103,US,1999
+REG-00191,Pinecrest Agriculture Corporation,7365 Main Dr,Columbus,43215,US,1989
+REG-00192,Thornbury Plumbing Holdings Corporation,9355 Industrial Parkway Blvd,Raleigh,27601,US,2006
+REG-00193,Wexford Pharma Group B.V.,Kerkstraat 3281,Utrecht,3511 LN,EU,1986
+REG-00194,Wexford Pharma Group B.V.,Kerkstraat 3281,Utrecht,3511 LN,EU,2022
+REG-00195,Summit Auto Repair Group GmbH,Elm 9095,Leiden,,EU,2020
+REG-00196,Coastal Manufacturing Holdings,Market 7371,Utrecht,,EU,1999
+REG-00197,Coastal Manufacturing Holdings,Market 7371,Utrecht,3511 LN,EU,2022
+REG-00198,Cobalt Electric Holdings,Unoon 637,Eindhoven,5611 EM,EU,1999
+REG-00199,Northgate Freight Holdings B.V.,Kerkstraat 9001,Leiden,2311 GJ,EU,1985
+REG-00200,Coastal Materials Group Inc.,792 Main Blvd,Spokane,99201,US,1989
+REG-00201,Ashworth Materials BV,Rvier 4782,Amsterdam,1017 AB,EU,1988
+REG-00202,PINECREST AUTOMOTIVE GROUP BV,Market 1412,Antwerp,2000,EU,1999
+REG-00203,Hollowell Construction Company,8326 Mill St,Boise,83702,US,1989
+REG-00204,Bluewater Auto Repair Group,Maple 4165,Antwerp,2000,EU,1987
+REG-00205,Lakeside Materials B.V.,Frsanklin 9543,Utrecht,,EU,2006
+REG-00206,Marlow Systms Inc,7622 Harbor Ln,Portland,,US,1989
+REG-00207,Ironwood Pizza Group,Church 4817,Amsterdam,1017 AB,EU,2017
+REG-00208,Bluewater Group Systems Ltd.,Miell 6534,Eindhoven,5611 EM,EU,2000
+REG-00209,Bluewater Systems Group Ltd.,Mill 6534,Eindhoven,5611 EM,EU,2002
+REG-00210,Crestline Analytics Group,793 Bhnhofstrasse Rd,Raleigh,27601,US,2016
+REG-00211,Fairmont Robotics Group Co.,7214 Highland Rd,Portland,97201,US,1998
+REG-00212,KINGSLEY TEXTILES CORPORATION,1363 River St,Boise,83702,US,2019
+REG-00213,Redstone Construction Group GmbH,Cedar 1690,Antwerp,2000,EU,1993
+REG-00214,Sterling Agriculure N.V.,Industrial Parkway 2740,Antwerp,,EU,2021
+REG-00215,Group Software Lakeside Corporation,949 Cedar Ln,Spokane,99201,US,2021
+REG-00216,Wexford Electric Co.,2631 Maple Ave,Tulsa,74103,US,2015
+REG-00217,WEXFORD ELECTRIC CO.,2631 Mple Ave,Tulsa,74103,US,2000
+REG-00218,CEDARBROOK LOGISTICS HOLDINGS B.V.,Bahnhofstrasse 3876,Antwerp,2000,EU,2015
+REG-00219,Ashowrth Logistics Inc,7381 Sunset Rd,Madison,53703,US,2011
+REG-00220,Ashworth Consukting GmbH,Franklin 6531,Hamburg,20095,EU,1997
+REG-00221,FALCON INDUSTRIAL INC,8186 Markwet Blvd,Reno,89501,US,1991
+REG-00222,Ironwood Agriculture Holdings Company,7302 Cedar Ct,Spokane,99201,US,1991
+REG-00223,Coffee Ridgeline Group B.V.,Mil 9021,Hamburg,20095,EU,2012
+REG-00224,Vantage Pizza BV,Market 5932,Munich,80331,EU,2007
+REG-00225,Crestline Electric Holdings Incorporated,8104 Male Rd,Reno,89501,US,2012
+REG-00226,Novara Electric Inc,1422 Cedar Rd,Boise,83702,US,2011
+REG-00227,THORNBURY PHARMA GROUP N.V.,Cedar 9429,Utrecht,3511 LN,EU,2014
+REG-00228,Group Agriculture Ironwood Ltd.,Washingxton 5654,Leiden,2311 GJ,EU,1988
+REG-00229,Redstone Bakery Holdinqgs N.V.,Oak 8248,Rotterdam,,EU,1991
+REG-00230,Silverline Pharma BV,Prinsengracht 9706,Utrecht,3511 LN,EU,1988
+REG-00231,Ashworth Fregiht Inc,9383 River Dr,Spokane,99201,US,2010
+REG-00232,Marlow Analytics Corporation,7922 Mzain Ct,Spokane,99201,US,2006
+REG-00233,Novara Mfg. Inc.,2599 Industrial Parkway Blvd,Madison,53703,US,1991
+REG-00234,Cobalt Software Holdings,5241 Sunset Blvd,Portland,97201,US,2000
+REG-00235,Wexford Construction Holdings GmbH,IndustrialP arkway 3970,Rotterdam,3011 CE,EU,1997
+REG-00236,Holdings Pinecrest Consulting Inc.,4764 Highland Ct,Tulsa,74103,US,1997
+REG-00237,Vantage Plumbfing Group LLC,5133 Church Ct,Portland,97201,US,2019
+REG-00238,Wexford Agriculture Group Corporation,8158 Maple St,Boise,83702,US,2013
+REG-00239,Wexford Agriculture Gtoup Corporation,8158 Maple St,Boise,83702,US,1993
+REG-00240,Pinecrest Energy Corporatoin,807 Oak Rd,Madison,,US,2012
+REG-00241,Thornbury Analytics,1771 River Ave,Raleigh,27601,US,1996
+REG-00242,Holdings Textiles Brookhaven N.V.,Prinsnegracht 848,Leiden,2311 GJ,EU,2002
+REG-00243,Delacroix Analytics Holdings Corp.,8271 Industrial Parkway Ct,Reno,89501,US,2014
+REG-00244,Greystone Cffee Inc.,2118 Elm Blvd,Tampa,33602,US,2000
+REG-00245,Cobalt Construction Group BV,Kerkstraat 3271,,2311 GJ,EU,1989
+REG-00246,Bluewater Logistics Holdings Inc,5466 Harbor Dr,Madison,53703,US,2013
+REG-00247,Media Sterling Holdings GmbH,Elm 5437,Brussels,,EU,2020
+REG-00248,Software Northgate Group Corporation,9487 Prinsengracht Ave,Wichita,67202,US,1991
+REG-00249,THORNBURY FOODS CO.,6239 Washington Ct,Spokane,99201,US,1988
+REG-00250,Ashworth Pizza Holdkings Inc,320 Infustrial Parkway Rd,,83702,US,2019
+REG-00251,Whitfield Robotics Company,7736 Oak Ln,Portland,97201,US,1985
+REG-00252,Delacroix Systems Corp.,8619 Highland Rd,,,US,1990
+REG-00253,Marlow Systems,4341 Kearkstraat Blvd,Columbus,43215,US,2000
+REG-00254,Highland Construction Group BV,Union 4886,Munich,80331,EU,1995
+REG-00255,Kingsley Systems Group,Park 9193,Hamburg,20095,EU,2011
+REG-00256,Marlow Chemicals Group Company,5664 Washington Rd,Denver,80202,US,2016
+REG-00257,Group Silverline Textiles Co.,4211 Harbor Ave,Columbus,43215,US,2015
+REG-00258,HIGHLAND CONSTRUCTION GMBH,Elm 2259,Munich,80331,EU,1998
+REG-00259,Construction Highland GmbH,Elm 2259,Munich,80331,EU,2010
+REG-00260,HOLLOWELL MATERIALS INC,870 Elm Blvd,Tampa,33602,US,1988
+REG-00261,Meridian Coffee Holdings,Linoln 9026,Brussels,1000,EU,1995
+REG-00262,Thornbury Media B.V.,Franklin 4716,Hamburg,20095,EU,2009
+REG-00263,Silverline Auto Repair B.V.,Oak 8777,Utrecht,3511 LN,EU,1985
+REG-00264,Redstone Logistics Group Company,8126 Lincoln Ln,Raleigh,27601,US,2009
+REG-00265,Acme Analytics Ltd.,Franklin 1768,Hamburg,20095,EU,2001
+REG-00266,Marlow Pharma Group Inc,8271 Industrial Parkwqy Rd,Columbus,43215,US,2014
+REG-00267,Cobalt Foods NV,Lincoln 4225,Amsterdam,1017 AB,EU,2003
+REG-00268,Coastal Automotive B.V.,Kerkstraat 2885,Brussels,1000,EU,2012
+REG-00269,Wexford Systems Holdings,Lincoln 1572,Utrecht,3511 LN,EU,2020
+REG-00270,PINECREST INDUSTRIAL GROUP CORP.,3868 Industrial Parkway Ct,Raleigh,27601,US,2016
+REG-00271,Sterling Automotive,Pak 197,Antwerp,2000,EU,1994
+REG-00272,Summit Coffee Holdings N..,Lincoln 5036,Brussels,1000,EU,1997
+REG-00273,STERLING PIZZA HOLDINGS GMBH,Kerkstraat 6031,Munich,80331,EU,2003
+REG-00274,Harborview Media Holdings Corp.,9934 Sunset Blvd,Wichita,67202,US,1998
+REG-00275,Silverline Pharma Group Ltd.,Cedar 5937,Rotterdam,,EU,1988
+REG-00276,Delacroix Pharma Holdings LLC,8802 Washnigton Ave,Tampa,,US,2022
+REG-00277,Delacroix Pharma Holdings,8802 Washungton Ave,Tampa,,US,2019
+REG-00278,Cedarbrook Technologies B.V.,Harvor 9564,Rotterdam,3011 CE,EU,1988
+REG-00279,Summit Construction Group Company,5059 Maole Blvd,Raleigh,27601,US,2005
+REG-00280,Whitfield Holdings Automotive B.V.,Sunset 6951,Rotterdam,3011 CE,EU,1988
+REG-00281,Summit Manufacturing Group Inc.,4713 River Ave,Portland,97201,US,1988
+REG-00282,Westgate Textiles Group,Highland 6194,Rotterdam,3011 CE,EU,2022
+REG-00283,Marlow Consulting,Linciln 1953,Leiden,2311 GJ,EU,2015
+REG-00284,Brookhaven Bakery,4065 Industrial Parlway Rd,Portland,97201,US,2017
+REG-00285,Brookhaven Bakery,3386 Cedar St,Columbus,,US,2018
+REG-00286,Foxhollow Auto Repair,3569 Oak Ave,,,US,1995
+REG-00287,Foxhollow Auto Repair L.L.C.,3891 Union Ave,Tulsa,74103,US,1988
+REG-00288,Hollowell Coffee LLC,6254 Market Rd,Boise,83702,US,2017
+REG-00289,Holliwell Coffee,3702 Union Ct,Raleigh,27601,US,1990
+REG-00290,Union Hardware L.L.C.,1305 Industrial Parkway Ct,Denver,80202,US,1996
+REG-00291,Union Hardware,657 Cedar Ave,Reno,89501,US,1989
+REG-00292,Brambleton Bakery,9912 Chucrh Blvd,Columbus,43215,US,2023
+REG-00293,Brambleton Bakery LLC,4295 Sunsrt Dr,Madison,53703,US,1989
+REG-00294,Kingsley Hardware Inc,2400 Maple Rd,Austin,73301,US,2000
+REG-00295,Pinecrest Hardware,2303 Mill Blvd,Reno,89501,US,2010
+REG-00296,Pinecrest Coffee,3710 Union Ln,Tulsa,74103,US,1992
+REG-00297,Pinecrest Cofdee LLC,9065 Hrabor St,Reno,89501,US,2021
+REG-00298,Acme Coffee,9296 Harbor Rd,Austin,73301,US,2000
+REG-00299,Acme Coffee,3404 Prinsengracht Ave,Madison,,US,2022
+REG-00300,Brookhaven Auto Repair,1294 Market Ln,Raleigh,27601,US,2023
+REG-00301,CEDARBROOK HARDWARE LLC,4047 Cedar St,Columbus,43215,US,1987
+REG-00302,Cedarbrook Hardware,95 Umion Blvd,Tampa,33602,US,1990
+REG-00303,Fairmont Pizza,5808 Mill St,Austin,73301,US,2011
+REG-00304,Fairmont Pizza Inx.,9177 Min Dr,Portland,97201,US,2022
+REG-00305,Acme Hardware Inx.,3300 Harbor Rd,Tampa,33602,US,2021
+REG-00306,Brookhaven Pizza Inc,3444 Industrial Parkway Ct,Austin,73301,US,2018
+REG-00307,BROOKHAVEN PIZZA,4149 Wdashington Ln,Tulsa,74103,US,2005
+REG-00308,Amberfield Hardware,5900 Moill Dr,Austin,73301,US,2001
+REG-00309,Amberfield Auo Repair LLC,1416 Elm Ct,Austin,73301,US,1998
+REG-00310,Union Pizza Inc.,7422 Frnklin St,Raleigh,27601,US,2005
+REG-00311,Union Pizza,2868 Mill Ave,Tampa,33602,US,2000
+REG-00312,Cobalt Bakery,3242 Industrial Parkway Dr,Boise,83702,US,2001
+REG-00313,Cobalt Bakery Inc.,3073 Sunset Rd,Madison,53703,US,2010
+REG-00314,Crestline Hardware Inc.,1881 Sunset Rd,Austin,,US,1993
+REG-00315,Crestline Hardware,1941 Main Rd,Raleigh,27601,US,2004

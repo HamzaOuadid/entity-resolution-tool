@@ -140,13 +140,22 @@ _POSTAL_RE = re.compile(r"\b(\d{4}\s?[a-zA-Z]{2}\b|\d{4,5}(?:[- ]?\d{2,4})?\b)")
 
 
 def extract_postal_code(text: str) -> str:
-    """Best-effort postal code extraction from a free-text address blob."""
+    """Best-effort postal code extraction from a free-text address blob.
+
+    Takes the LAST 4-5 digit match in the string, not the first: a
+    "<number> <street>, <city>, <postal>"-shaped address has its street
+    number (also 4 digits in a lot of real addresses, e.g. "4208 Sunset
+    Ave") appear *before* the actual postal code. Using .search() here
+    originally grabbed the street number instead -- caught by comparing the
+    printed review-queue postal codes against the synthetic ground truth's
+    known postal codes during manual QA of the demo run.
+    """
     if not text:
         return ""
-    match = _POSTAL_RE.search(text)
-    if not match:
+    matches = list(_POSTAL_RE.finditer(text))
+    if not matches:
         return ""
-    return re.sub(r"[\s-]", "", match.group(1)).upper()
+    return re.sub(r"[\s-]", "", matches[-1].group(1)).upper()
 
 
 def normalize_postal_code(postal_code: str) -> str:
@@ -165,6 +174,38 @@ def normalize_city(city: str) -> str:
     return " ".join(words)
 
 
+def extract_city(raw_address: str) -> str:
+    """Best-effort city extraction from a comma-segmented free-text address,
+    e.g. "500 Oak St, Denver, CO 80202" or "Kerkstraat 12, 1017 AB Amsterdam".
+
+    Must run on the *raw* (unpunctuated-stripped) address, since it relies on
+    commas as segment separators -- normalize_address_text() already threw
+    those away for the token-similarity use case, so this is a separate pass.
+    Without this, sources whose address is a single free-text field (no
+    structured city column) would never contribute a city signal at all,
+    which matters for blocking/scoring (see scoring.city_similarity and the
+    franchise-sibling disambiguation edge case).
+    """
+    if not raw_address:
+        return ""
+    parts = [p.strip() for p in raw_address.split(",") if p.strip()]
+    if not parts:
+        return ""
+    if len(parts) >= 3:
+        # street, city, postal(+state) -- city is the middle segment
+        return normalize_city(parts[-2])
+    if len(parts) == 2:
+        last = parts[-1]
+        match = _POSTAL_RE.search(last)
+        if match:
+            remainder = (last[: match.start()] + last[match.end():]).strip()
+            return normalize_city(remainder)
+        # no postal code in the trailing segment -- e.g. "street, city" with
+        # no postal code recorded at all -- treat the whole segment as city.
+        return normalize_city(last)
+    return ""
+
+
 def normalize(
     raw_entity: RawEntity,
     city: str = "",
@@ -173,15 +214,15 @@ def normalize(
     """normalize(raw_entity) -> NormalizedEntity, per the API contract.
 
     `city`/`postal_code` are optional pre-parsed fields a source adapter may
-    already have (structured sources). If omitted, we try to recover a
-    postal code from the free-text address itself.
+    already have (structured sources) and take priority when given. If
+    omitted, we try to recover both from the free-text address itself.
     """
     normalized_name, legal_suffix, core_tokens = normalize_name(raw_entity.raw_name)
     normalized_address = normalize_address_text(raw_entity.raw_address)
     normalized_postal = normalize_postal_code(postal_code) or extract_postal_code(
         raw_entity.raw_address
     )
-    normalized_city = normalize_city(city)
+    normalized_city = normalize_city(city) or extract_city(raw_entity.raw_address)
 
     return NormalizedEntity(
         raw_entity_id=raw_entity.id if raw_entity.id is not None else -1,

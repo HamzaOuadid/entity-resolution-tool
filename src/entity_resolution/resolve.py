@@ -41,13 +41,13 @@ from .models import CandidatePair, Decision
 
 @dataclass
 class ResolveThresholds:
-    # Tuned against the synthetic dataset's hand-labelled sample: 0.78 gives
-    # full precision (1.0) while materially improving recall over a stricter
-    # 0.83 cutoff (see README for the sweep). Lower still (~0.72) buys a
-    # little more recall at a small precision cost -- 0.78 was chosen as the
-    # more conservative point given the spec's "without false merges" goal.
-    match_threshold: float = 0.78
-    no_match_threshold: float = 0.55
+    # Tuned by sweeping both thresholds against the synthetic dataset's
+    # hand-labelled sample (see README for the sweep table). 0.75/0.60 sits
+    # near the full-dataset F1 peak (0.889) while keeping the review band a
+    # manageable size relative to a looser no_match_threshold of 0.55 (same
+    # F1, ~25% more pairs pushed to review for no precision/recall gain).
+    match_threshold: float = 0.75
+    no_match_threshold: float = 0.60
 
 
 @dataclass

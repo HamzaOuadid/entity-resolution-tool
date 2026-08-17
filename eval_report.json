@@ -1,0 +1,23 @@
+{
+  "n_entities": 971,
+  "n_candidate_pairs": 1219,
+  "n_true_match_pairs": 957,
+  "blocking_recall": 0.877742946708464,
+  "blocking_missed": 117,
+  "full_dataset_precision": 0.9243792325056434,
+  "full_dataset_recall": 0.8557993730407524,
+  "full_dataset_f1": 0.8887683125339121,
+  "n_matches": 886,
+  "n_no_matches": 133,
+  "n_review_queue": 200,
+  "n_clusters": 300,
+  "n_flagged_conflict_clusters": 0,
+  "hand_label_sample_size": 300,
+  "hand_label_precision": 0.9301310043668122,
+  "hand_label_recall": 0.9726027397260274,
+  "hand_label_f1": 0.9508928571428571,
+  "hand_label_tp": 213,
+  "hand_label_fp": 16,
+  "hand_label_fn": 6,
+  "hand_label_tn": 65
+}
